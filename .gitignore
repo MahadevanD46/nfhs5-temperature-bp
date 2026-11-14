@@ -1,0 +1,31 @@
+# --- Restricted data: NEVER commit (DHS terms of use) ---
+*.DTA
+*.dta
+*.sav
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.rds
+*.RData
+*.Rhistory
+*.nc
+*.GRD
+*.grd
+*.tif
+output_full/
+data_raw/
+data_restricted/
+climate/
+boundaries/
+imd/
+synthetic_project/
+output_revision/analysis_dataset_v2.rds
+output_revision/t_residuals.rds
+output_revision/boot_reps.rds
+output_revision/*.log
+docs_filled/
+# never commit credentials
+.Renviron
+*key*
